@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,41 +13,58 @@
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: #0288d1;
             color: white;
             padding: 20px;
             text-align: center;
         }
+
         main {
             padding: 20px;
             text-align: center;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             color: #0288d1;
         }
+
         .favorite-things {
             list-style-type: none;
             padding: 0;
         }
+
         .favorite-things li {
             margin: 10px 0;
         }
+
+       #elsa {
+            /* make text italic, use font thaat looks like big handwritten signature*/
+            font-style: italic;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 32px;
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Welcome to My Page</h1>
     </header>
     <main>
         <h2>About Me</h2>
-        <p>Hi! My name is Elsa, and I love anime, the color blue, and flowers. 🌸</p>
+        <p>Hi! My name is
+        <div id="elsa"><b>Elsa</b></div> and I love anime, the color blue, and flowers. 🌸</p>
         <h2>My Favorite Things</h2>
         <ul class="favorite-things">
             <li>Watching anime</li>
             <li>Blue skies and oceans</li>
             <li>Beautiful flowers</li>
+            <div>husbando</div>
         </ul>
     </main>
 </body>
+
 </html>
